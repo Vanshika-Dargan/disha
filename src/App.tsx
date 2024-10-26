@@ -100,7 +100,7 @@ function App() {
 
         </div>
         </div>
-  
+        <div className='flex flex-col gap-10'>
         <div className="bg-white-200 p-4 rounded-lg shadow-md" style={{maxHeight: 'fit-content'}}>
           <div className=" flex flex-col justify-center">
           <img src={Camera} className="h-[180px] object-cover" alt="Camera" />
@@ -120,8 +120,22 @@ function App() {
            
             
           </div>
-          <div className="w-100 bg-purple-300 rounded-md p-3 text-center">Apply</div>
+          <div className="w-100 bg-purple-400 rounded-md p-3 text-center">Apply</div>
           </div>
+        </div>
+        <div className="bg-white-200 p-4 rounded-lg shadow-md" style={{maxHeight: 'fit-content'}}>
+          <div className=" flex flex-col justify-center">
+         
+         <div className="text-gray-500 text-md">Sponsered By</div>
+         <div className="text-gray-800 text-lg flex flex-row gap-x-5 flex-wrap mt-2">
+         <div>Airtel</div>
+         <div>Amar Ujala</div>
+         <div>Sponser3</div>
+         <div>Sponser4</div>       
+         </div>
+      
+          </div>
+        </div>
         </div>
         
       </div>
