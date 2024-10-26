@@ -13,7 +13,7 @@ function App() {
     <div className="container mx-auto p-4 h-full flex items-center justify-center mb-5">
       <div className="grid grid-cols-[75%,25%] gap-4 w-full h-full">
         
-        <div className="relative bg-white-200 p-4 rounded-lg shadow-md flex flex-col justify-center ">
+        <div className="bg-[#FCFAEE] relative bg-white-200 p-4 rounded-lg shadow-md flex flex-col justify-center ">
           <div className='absolute top-0 left-0'>
             <img className="" src={Elipse2}/>
           </div>
@@ -117,7 +117,7 @@ function App() {
         </div>
         </div>
         <div className='flex flex-col gap-10'>
-        <div className="bg-white-200 p-4 rounded-lg shadow-md" style={{maxHeight: 'fit-content'}}>
+        <div className="bg-white-200 p-4 rounded-lg shadow-md bg-[#FCFAEE]" style={{maxHeight: 'fit-content'}}>
           <div className=" flex flex-col justify-center">
           <img src={Camera} className="h-[180px] object-cover" alt="Camera" />
           <div className="py-10 flex flex-col gap-2">
@@ -139,7 +139,7 @@ function App() {
           <div className="w-100 bg-purple-400 rounded-md p-3 text-center">Apply</div>
           </div>
         </div>
-        <div className="bg-white-200 p-4 rounded-lg shadow-md" style={{maxHeight: 'fit-content'}}>
+        <div className="bg-white-200 p-4 rounded-lg shadow-md bg-[#FCFAEE]" style={{maxHeight: 'fit-content'}}>
           <div className=" flex flex-col justify-center">
          
          <div className="text-gray-500 text-md">Sponsered By</div>
