@@ -33,9 +33,9 @@ function App() {
         <div className='relative w-[90%] border border-gray/20 mt-[5rem] rounded-lg p-5 mx-6 flex flex-row gap-12'>
         <a>Description</a>
         <a>Deadlines</a>
-        <a>Eligibility Criteria</a>
+        <a>Eligibility</a>
         <a>FAQ's</a>
-        <a>About Amar Ujala</a>
+        <a>About</a>
         </div>
         <div className='relative w-[90%] mt-[3rem] rounded-lg p-5 flex flex-col gap-12'>
         
