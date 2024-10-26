@@ -3,7 +3,7 @@ import Confetti from '../assets/confetti.gif'
 export const Result = ()=>{
     return (
         <>
-        <div className="container flex items-center justify-center">
+        <div className="flex items-center justify-center">
             <img className='absolute' src={Confetti}/>
             <div className='relative bg-[#FCFAEE] my-10 py-5 rounded-lg max-w-[400px] flex items-center justify-center flex-col'>
             <img src ={Award} width={300}/>
