@@ -1,11 +1,8 @@
 import './App.css'
 import Camera from './assets/camera.png'
-import Triangle from './assets/trianlge.svg';
 import Elipse1 from './assets/ellipse1.svg';
 import Elipse2 from './assets/ellipse2.svg';
-import Triangle2 from './assets/triangle2.svg';
 import Elipse3 from './assets/ellipse3.svg'
-import Elipse4 from './assets/semi.svg'
 import Triangle3 from './assets/triangle3.svg'
 
 function App() {
