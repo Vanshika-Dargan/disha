@@ -7,7 +7,7 @@ function App() {
   return (
     <Router>
       <Routes>
-      <Route path="/" element={<Result />} /> 
+      <Route path="/" element={<Event />} /> 
         <Route path="/result" element={<Result />} />         {/* Example route for the Home page */}
         <Route path="/event" element={<Event />} />   {/* Route for the Event page */}
         {/* Add more routes here as needed */}
