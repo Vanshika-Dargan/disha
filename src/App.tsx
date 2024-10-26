@@ -11,7 +11,7 @@ function App() {
   return (
     <>
     <div className="container mx-auto p-4 h-full flex items-center justify-center mb-5">
-      <div className="grid grid-cols-[75%,25%] gap-4 w-full h-full">
+      <div className="grid sm:grid-cols-1 lg:grid-cols-[75%,25%] gap-4 w-full h-full">
         
         <div className="bg-[#FCFAEE] relative bg-white-200 p-4 rounded-lg shadow-md flex flex-col justify-center ">
           <div className='absolute top-0 left-0'>
@@ -119,7 +119,7 @@ function App() {
         <div className='flex flex-col gap-10'>
         <div className="bg-white-200 p-4 rounded-lg shadow-md bg-[#FCFAEE]" style={{maxHeight: 'fit-content'}}>
           <div className=" flex flex-col justify-center">
-          <img src={Camera} className="h-[180px] object-cover" alt="Camera" />
+          <img src={Camera} className="sm:h-[410px] lg:h-[180px] object-cover" alt="Camera" />
           <div className="py-10 flex flex-col gap-2">
             <div>
             <div className="text-gray-500 text-md">Applied</div>
@@ -142,7 +142,7 @@ function App() {
         <div className="bg-white-200 p-4 rounded-lg shadow-md bg-[#FCFAEE]" style={{maxHeight: 'fit-content'}}>
           <div className=" flex flex-col justify-center">
          
-         <div className="text-gray-500 text-md">Sponsered By</div>
+         <div className="text-gray-500 text-md sm:mb-12">Sponsered By</div>
          <div className="text-gray-800 text-lg flex flex-row gap-x-5 flex-wrap mt-2">
          <div>Airtel</div>
          <div>Amar Ujala</div>
