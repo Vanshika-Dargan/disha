@@ -26,18 +26,18 @@ function App() {
           <div className='absolute bottom-0 right-0 -z-1'>
             <img className="" src={Triangle3}/>
           </div>
-          <div className="relative max-w-[90%] mt-[20%]">
+          <div className="relative max-w-[90%] mt-[20%] px-6">
           <h2 className="text-4xl font-semibold">Amar Ujala National Photography Contest</h2>
           <p className="mt-2 text-gray-700">Capture the world through your lens and showcase your talent in our Photography Contest! Submit your best shots for a chance to win prizes and share your unique perspective</p>
         </div>
-        <div className='relative w-[90%] border border-gray/20 mt-[5rem] rounded-lg p-5 flex flex-row gap-12'>
+        <div className='relative w-[90%] border border-gray/20 mt-[5rem] rounded-lg p-5 mx-6 flex flex-row gap-12'>
         <a>Description</a>
         <a>Deadlines</a>
         <a>Eligibility Criteria</a>
         <a>FAQ's</a>
         <a>About Amar Ujala</a>
         </div>
-        <div className='relative w-[90%] mt-[5rem] rounded-lg p-5 flex flex-col gap-12'>
+        <div className='relative w-[90%] mt-[3rem] rounded-lg p-5 flex flex-col gap-12'>
         
         <div className="min-h-screen">
 
