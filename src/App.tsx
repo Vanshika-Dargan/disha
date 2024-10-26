@@ -1,5 +1,12 @@
 import './App.css'
 import Camera from './assets/camera.png'
+import Triangle from './assets/trianlge.svg';
+import Elipse1 from './assets/ellipse1.svg';
+import Elipse2 from './assets/ellipse2.svg';
+import Triangle2 from './assets/triangle2.svg';
+import Elipse3 from './assets/ellipse3.svg'
+import Elipse4 from './assets/semi.svg'
+import Triangle3 from './assets/triangle3.svg'
 
 function App() {
 
@@ -9,19 +16,31 @@ function App() {
     <div className="container mx-auto p-4 h-full flex items-center justify-center mb-5">
       <div className="grid grid-cols-[75%,25%] gap-4 w-full h-full">
         
-        <div className="bg-white-200 p-4 rounded-lg shadow-md flex flex-col justify-center ">
-          <div className="max-w-[90%] mt-[20%]">
+        <div className="relative bg-white-200 p-4 rounded-lg shadow-md flex flex-col justify-center ">
+          <div className='absolute top-0 left-0'>
+            <img className="" src={Elipse2}/>
+          </div>
+          <div className='absolute bottom-0 left-0'>
+            <img className="" src={Elipse1}/>
+          </div>
+          <div className='absolute top-0 right-0 -z-1'>
+            <img className="" src={Elipse3}/>
+          </div>
+          <div className='absolute bottom-0 right-0 -z-1'>
+            <img className="" src={Triangle3}/>
+          </div>
+          <div className="relative max-w-[90%] mt-[20%]">
           <h2 className="text-4xl font-semibold">Amar Ujala National Photography Contest</h2>
           <p className="mt-2 text-gray-700">Capture the world through your lens and showcase your talent in our Photography Contest! Submit your best shots for a chance to win prizes and share your unique perspective</p>
         </div>
-        <div className='w-[90%] border border-gray/20 mt-[5rem] rounded-lg p-5 flex flex-row gap-12'>
+        <div className='relative w-[90%] border border-gray/20 mt-[5rem] rounded-lg p-5 flex flex-row gap-12'>
         <a>Description</a>
         <a>Deadlines</a>
         <a>Eligibility Criteria</a>
         <a>FAQ's</a>
         <a>About Amar Ujala</a>
         </div>
-        <div className='w-[90%] mt-[5rem] rounded-lg p-5 flex flex-col gap-12'>
+        <div className='relative w-[90%] mt-[5rem] rounded-lg p-5 flex flex-col gap-12'>
         
         <div className="min-h-screen">
 
